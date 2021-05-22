@@ -1,0 +1,23 @@
+{
+  "name": "shipping-info-proxy",
+  "version": "1.0.0",
+  "description": "Proxy server for shipping info",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "proxy": "nodemon ./server/server.js localhost 2000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mary-Read/shipping-info-proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mary-Read/shipping-info-proxy/issues"
+  },
+  "homepage": "https://github.com/Mary-Read/shipping-info-proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
